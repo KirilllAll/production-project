@@ -1,4 +1,13 @@
-dist
-node_modules
-.idea
+# Файлы и папки операционной системы
 .DS_Store
+Thumbs.db
+
+# Файлы редактора
+.idea
+.vscode
+
+# Вспомогательные файлы
+*.log*
+node_modules/
+
+dist
