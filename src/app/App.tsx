@@ -5,7 +5,7 @@ import './styles/index.scss';
 import { useTheme } from 'app/providers/ThemeProvider';
 
 import { classNames } from 'shared/config/lib';
-import { AppRouter } from 'app/providers/router'
+import { AppRouter } from 'app/providers/router';
 
 const App = () => {
 	const { theme, toggleTheme } = useTheme();
